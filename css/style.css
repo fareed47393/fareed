@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background: #720129;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius:  10px ;
+	background: #ffffff;
+}
+
+/* navigation starts */
+header{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    /* background-color: burlywood; */
+     
+} 
+
+header img{
+    width: 120px;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header ul li{
+    list-style: none;
+    margin-top: 30px;
+    padding-block: 5px;
+    padding-inline: 15px;
+}
+
+header ul li a{
+    font-family: 'Bodoni Moda', serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #454545;
+}
+
+/* banner starts */
+.banner{
+    width: 100%;
+    background-color: #fff5f5;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.text-box{
+    width: 40%;
+}
+
+.banner .img-box{
+    width: 50%;
+}
+
+.banner .img-box img{
+    width: 100%;
+    display: block;
+}
+
+.text-box h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: #454545;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.text-box p{
+    margin-top: 30px;
+}
+
+.text-box button{
+    width: 140px;
+    padding: 15px;
+    background-color: #454545;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    margin-top: 30px;
+}
+ 
+.text-box button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+/* logo starts */
+ .logo-sec{
+    padding: 30px;
+ }
+.logo-sec img{
+    width: 120px;
+}
+
+
+/* about starts */
+.about-us{
+    width: 100%;
+    background-color: #fff5f5;
+}
+
+.about-text{
+    max-width: 700px;
+    padding-block: 55px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-text h1{
+    font-weight: 400;
+    font-size: 45px;
+    color: #454545;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.about-text p{
+    margin-top: 30px;
+    line-height: 26px;
+    
+}
+
+/* services starts */
+
+.services .img-box{
+    width: 40%;
+}
+   
+.services .img-box img{
+    width: 100%;
+    display: block;
+}
+
+.services .service-text{
+    width: 50%;
+}
+
+.services .service-text h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #454545;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.services .service-text p{
+    margin: 45px 0;
+}
+
+.services .service-text button{
+    width: 140px;
+    padding: 15px;
+    background-color: #454545;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    margin-top: 10px;
+}
+
+.services button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+
+/* information-text starts */
+.information{
+    width: 100%;
+    background-color: #fff5f5;
+    padding-block: 65px;
+}
+
+.information h1{
+    color: #454545;
+    text-align: center;
+    font-size: 40px;
+}
+
+.info-text{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information .info-text p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+ 
+.info-text h3,.info-text h1{
+    color: #454545;
+    font-family: 'Bodoni Moda', serif;
+    margin-top: 65px;
+}
+
+.information .info-text .info-left,.information .info-text .info-right{
+    width: 40%;
+}
+
+/* blog starts */
+.blog{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.blog .blog-text h1{
+    font-size: 45px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.blog-text p{   
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.blog .blog-text{
+    width: 30%;
+}
+
+.blog .blog-img{
+    width: 40%;
+}
+
+.blog .blog-img img{
+    width: 100%;
+}
+
+.blog .blog-text button{
+    width: 140px;
+    padding: 15px;
+    background-color: #454545;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.blog .blog-text button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+/* about starts */
+.about-me{
+    width: 100%;
+    padding-block: 100px;
+    background-color: #fff5f5;
+}
+
+.about-me .about-content{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #454545;
+}
+.about-me .about-content .about-me-img{
+    width: 25%;
+}
+
+.about-me .about-content .about-me-img img{
+    width: 100%;
+    display: block;
+}
+
+.about-me .about-content .about-me-text{
+    width: 60%;
+}
+
+.about-me .about-content .about-me-text h3{
+    margin-top: 25px;
+    color: #454545;
+}
+
+.about-me .about-content .about-me-text .italic{
+    font-style: italic;
+}
+
+.about-me .about-content .about-me-text p{
+    text-align: left;
+}
+
+/* gallery starts */
+.gallery{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-block: 60px;
+    padding-inline: 30px;
+}
+
+.gallery img {
+    width: 95%;
+}
+
+
+.socail-icons{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.socail-icons .fa-brands{
+    padding-inline: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.socail-icons a{
+    display: block;
+    margin-top: 20px;
+}
+
+.menu{
+    display: none;
+    color: #454545;
+}
+
+.carousel-slide{
+    display: flex;
+    /* background-color: red; */
+    text-align: center;
+    /* padding-inline: 30px; */
+     
+}
+ 
+
+ 
+
+@media only screen and (max-width:900px){
+.inner{
+       max-width: 600px; 
+       padding-inline: 20px;
+       align-items: center;
+}
+
+.info-text{
+    max-width: 400px;
+    padding-inline: 20px;
+}
+
+.blog{
+    max-width: 600px;
+    padding-inline: 20px;
+}
+
+.about-me .about-content{
+    max-width: 400px;
+    padding-inline: 20px;
+}
+
+.about-text{
+    max-width: 400px;
+    padding-inline: 20px;
+}
+}
+
+@media only screen and (max-width: 600px){
+    .text-box{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .text-box h1 {
+        font-size: 35px;
+    }
+
+    .banner .img-box{
+        width: 100%;
+    }
+
+    .inner{
+        flex-direction: column;
+        padding-inline: 20px;
+    }
+
+    .logo-sec{
+        padding-inline: 30px;
+     }
+
+    .logo-sec img{
+        width: 120px;
+    }
+
+    .logo-sec h1{
+        font-weight: bold;
+        font-size: 45px;
+        color: #454545;
+    }
+
+    .logo-sec img{
+        width: 150px;
+        margin-top: 30px;
+    }
+
+    .blog-text{
+        order: 2;
+    }
+
+    .blog-img{
+        order: 1;
+    }
+    
+    .blog{
+        flex-direction: column;
+    }
+
+    .blog .blog-text{
+        width: 80%;
+    }
+    
+
+    .gallery{
+        max-width: 400px;
+        padding-inline: 30px;
+    }
+    
+  
+
+    .gallery img {
+        width: 95%;
+    }
+
+    .services .service-text {
+        width: 80%;
+    }
+
+    .info-text{
+        max-width: 400px;
+        align-items: center;
+    }
+
+    .information .info-text .info-left,.information .info-text .info-right{
+        width: 100%;
+    }
+
+    .information .info-text .info-right{
+        display: none;
+    }
+
+    .about-me .about-content{
+        max-width: 400px;
+        flex-direction: column;
+    }
+
+    .about-me .about-content .about-me-text{
+        width: 80%;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .blog .blog-text button,.services .service-text button,.text-box button{
+        width: 100px;
+        padding: 10px;
+    }
+    
+    .blog .blog-text button a,.services button a,.text-box button a{
+        font-size: 14px;
+    }
+    
+     
+
+
+    /***************** mobile menu starts *******************************/
+
+    header ul {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        display: block;
+         margin-top: -500px;
+        background-color: #ffff;
+        transition: all 0.3s ease;
+    }
+ 
+    
+    header ul li a.sec-child {
+        padding-top: 18px;
+        display: block;
+    }
+    
+
+    header ul li {
+        list-style: none;
+        margin-top: 0px;
+        padding-block: 5px;
+        padding-inline: 15px;
+    }
+
+    .nav-header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        z-index: 500;
+       }
+
+
+    .menu{
+        display: block;
+        font-size: 25px;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 250px){
+    .text-box h1 {
+        font-size: 31px;
+    }
+
+    .about-text h1 {
+        font-size: 30px;
+    }
+
+    .services .service-text h1 {
+        font-size: 30px;
+    }
+
+    .blog .blog-text h1 {
+        font-size: 30px;
+    }
+
+    .blog-text p {
+        margin-top: 14px;
+        margin-bottom: 27px;
+        font-size: 15px;
+    }
+
+    .information h1 {
+        font-size: 30px;
+    }
+
+    .info-text h3, .info-text h1 {
+        margin-top: 20px;
+    }
+
+    .about-me {
+        padding-block: 30px;
+    }
+
+    header img {
+        width: 80px;
+        object-fit: contain;
+    }
+
+    .menu {
+        display: block;
+        font-size: 20px;
+    }
+
+    
+
+    .logo-sec{
+        padding: 30px;
+     }
+
+     .logo-sec h1{
+        font-size: 30px;
+     }
+    .logo-sec img{
+        width: 120px;
+    }
+}
